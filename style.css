@@ -1,0 +1,54 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap');
+
+
+  .gradient-color{
+    background: #19CF1F;
+    background: -webkit-radial-gradient(ellipse farthest-corner at bottom center, #19CF1F 20%, #E31714 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at bottom center, #19CF1F 20%, #E31714 80%);
+    background: radial-gradient(ellipse farthest-corner at bottom center, #19CF1F 20%, #E31714 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+ *{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assests/images/countdowntime.jpg);
+  background-size: cover;
+  background-position: center, center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.countdown-container{
+  display: flex;
+
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+}
+    
